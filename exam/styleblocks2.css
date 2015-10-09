@@ -1,0 +1,122 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url(img/bodybg.png)
+}
+
+.clear {
+    clear: both;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 80px;
+    background: coral;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#header h1 {
+    text-align: center;
+    font-size: 35px;
+    /*padding-top:15px; при условии, что элемент один*/
+    margin-top: 15px;
+}
+
+#menu {
+    height: 80px;
+    /* background:pink;*/
+}
+
+#menu ul {
+    margin-left: -40px;
+}
+
+#menu li {
+    float: left;
+    list-style: none;
+    width: 200px;
+    height: 50px;
+    padding-top: 15px;
+    margin-left: 30px;
+    background: gold;
+    border: 2px solid #000;
+    text-align: center;
+    border-radius: 10px 0;
+    box-shadow: grey 5px 5px 10px 0;
+    font-size: 25px;
+}
+
+#content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#left {
+    height: 700px;
+    width: 200px;
+    float: left;
+}
+
+#left_1 {
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    height: 200px;
+    background: silver;
+}
+
+#left_1 img {
+    padding: 10px;
+    float: left;
+}
+
+#left_1 p {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#left_2 {
+    width: 200px;
+    height: 600px;
+    background: grey;
+    float: left;
+    border: 1px solid #000;
+}
+#left_2_inner {
+    margin-left: 10px;
+    }
+
+#right {
+    margin-left: 210px;
+    margin-bottom: 10px;
+}
+
+#right_1 {
+    height: 200px;
+    border: 1px #000 solid;
+    margin-bottom: 10px;
+    background: grey;
+}
+
+#right_2 {
+    height: 600px;
+    border: #000 solid 1px;
+    background:silver;
+    margin-top: 10px;
+    font-size: 20pt;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    margin-right: 10px;
+}
+
+#footer {
+    height: 80px;
+    background:blueviolet;
+    text-align: center;
+    font-size: 35px;
+}
